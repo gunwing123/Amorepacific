@@ -8,7 +8,7 @@ import schedule
 import time
 
 # 작업 디렉토리 설정 (필요시 수정)
-os.chdir(r'C:/Users/kyj20/Desktop/용준/공모전/아모레퍼시픽/AI agent')
+os.chdir(r'')
 
 # Playwright 브라우저 설치 확인 및 자동 설치
 def ensure_playwright_browsers():
@@ -101,5 +101,6 @@ run_in_thread(collect_brand_products(save_html=True, show_sample=True, wait_ms=4
 # 옵션 3: 인사이트 생성 (수집 후 실행)
 print("인사이트 생성 시작...")
 run_analysis()
+
 
 
